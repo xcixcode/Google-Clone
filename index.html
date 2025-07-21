@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <!-- jQuery 라이브러리 추가 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- FontAwesome 아이콘을 사용하기 위한 스타일시트 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css">
+    <!-- 사용자 정의 스타일 시트 링크 -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- 오른쪽 상단 헤더 -->
+    <header>
+      <!-- 좌측 링크들 -->
+       <ul class="left-menu">
+        <li><a href="https://about.google/?fg=1&utm_source=google-KR&utm_medium=referral&utm_campaign=hp-header">Google 정보</a></li>
+        <li><a href="https://store.google.com/regionpicker?hl=en-US">스토어</a></li>
+      </ul>
+      <!-- 다크/라이트 모드 토글 버튼 -->
+      <input type="button" class="dark-light-btn" value="dark" onclick="darkLightHandler(this)">
+      <ul>
+        <!-- Gmail 링크 -->
+        <li><a href="https://mail.google.com/">Gmail</a></li>
+        <!-- 이미지 검색 링크 -->
+        <li><a href="https://www.google.co.kr/imghp?hl=ko&ogbl">이미지</a></li>
+        <!-- Search Labs 아이콘 버튼 -->
+        <li><button class="google-app"><i class="fas fa-flask"></i></button></li>
+        <!-- 구글 앱 아이콘 버튼 -->
+        <li><button class="google-app"><i class="fas fa-th"></i></button></li>
+        <!-- 프로필 이미지 버튼 -->
+        <li><button><img class="profile-image" src="images/profile.png"></button></li>
+      </ul>
+    </header>
+    <!-- 로고, 검색바, Google 검색, I'm Feeling Lucky 섹션 -->
+    <section class="middle">
+      <div class="google-logo">
+        <!-- 구글 로고 이미지 -->
+        <img class="logo-image" src="images/logo.png">
+      </div>      
+      <div class="search-box">
+        <!-- 검색 아이콘 -->
+        <span class="search-icon"><i class="fas fa-search"></i></span>
+        <!-- 키보드 아이콘 -->
+        <span class="keyboard-icon"><i class="far fa-keyboard"></i></span>
+        <!-- 마이크 아이콘 -->
+        <span class="microphone-icon"><i class="fas fa-microphone"></i></span>
+        <!-- 이미지 검색 아이콘 -->
+        <span class="expand-icon"><i class="fas fa-expand"></i></span>
+        <!-- 검색어 지우기 버튼 -->
+        <button class="clear-btn"><i class="fas fa-times"></i></button>
+        <!-- 검색 입력창 -->
+        <input class="search-bar" type="text">
+
+      </div>
+      <div class="additional-box">
+        <!-- "Google 검색" 버튼 -->
+        <a href="#" class="additional-search">Google 검색</a>
+        <!-- "I'm Feeling Lucky" 버튼 -->
+        <a href="https://www.google.com/doodles" class="additional-lucky">I'm Feeling Lucky</a>
+      </div>
+    </section>
+    <!-- 하단 푸터 섹션: 국가, 개인정보 처리 방침, 설정 등 -->
+    <footer>
+      <!-- 국가 정보 (대한민국) -->
+      <div class="country-info">대한민국</div>
+      <div class="instruction">
+        <ul>
+          <!-- 왼쪽 푸터 링크 (광고, 비즈니스, 검색의 원리 등) -->
+          <li class="left-side">
+            <a href="https://www.google.com/intl/ko_kr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">광고</a>
+            <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">비즈니스</a>
+            <a href="https://google.com/search/howsearchworks/?fg=1">검색의 원리</a>
+          </li>
+          <!-- 오른쪽 푸터 링크 (개인정보 처리 방침, 약관, 설정 등) -->
+          <li class="right-side">
+            <a href="https://policies.google.com/privacy?hl=ko&fg=1">개인정보처리방침</a>
+            <a href="https://policies.google.com/terms?hl=ko&fg=1">약관</a>
+            <a href="#">설정</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <!-- 색상 관련 JavaScript 파일 -->
+  <script src="colors.js"></script>
+  <!-- 이벤트 핸들러 관련 JavaScript 파일 -->
+  <script src="events.js"></script>
+</html>
