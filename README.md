@@ -79,8 +79,10 @@ open index.html  # 또는 브라우저에서 직접 열기
 ## 🙏 참고 및 출처
 
 - Google 공식 홈페이지: https://www.google.com/
-- jQuery 공식 문서: https://api.jquery.com/
-- FontAwesome: https://fontawesome.com/
+- jQuery 공식 문서:
+https://api.jquery.com/
+- FontAwesome:
+https://fontawesome.com/
 
 ---
 
