@@ -33,14 +33,15 @@
 
 ## 📁 파일 구조
 
-- `index.html` – 메인 HTML 파일
-- `style.css` – 페이지 스타일 정의
-- `colors.js` – 다크/라이트 모드 색상 처리용 스크립트
-- `events.js` – 이벤트 처리용 JavaScript
+- `index.html` : 메인 HTML 파일
+- `style.css` : 페이지 스타일 정의
+- `colors.js` : 다크/라이트 모드 색상 처리용 스크립트
+- `events.js` : 이벤트 처리용 JavaScript
 - `images/`
-  - `logo.png` – 기본 Google 로고
-  - `logo-white.png` – 다크 모드용 Google 로고
-  - `profile.png` – 프로필 이미지
+  - `logo.png` : 기본 Google 로고
+  - `logo-white.png` : 다크 모드용 Google 로고
+  - `profile.png` : 프로필 이미지
+- `README.md` : 설명 문서
 
 ---
 
