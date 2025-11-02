@@ -62,7 +62,3 @@ https://xcixcode.github.io/Google-Clone/
 >   - [Google 공식 홈페이지](https://www.google.com/)  
 >   - [jQuery 공식 문서](https://api.jquery.com/)  
 >   - [FontAwesome](https://fontawesome.com/)
-
----
-
-📎 본 프로젝트는 Google과 무관하며, 교육 및 포트폴리오 용도로 제작되었습니다.
