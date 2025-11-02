@@ -56,7 +56,7 @@ https://xcixcode.github.io/Google-Clone/
 > ⚠️ 참고
 >
 > * 검색 결과는 실제 Google로 이동하므로 네트워크 연결 필요  
-> * 로컬 테스트 시 `images/` 폴더 내 이미지가 존재해야 UI가 정상적으로 표시됩니다  
+> * 로컬 테스트 시 `images/` 폴더 내 이미지가 존재해야 UI가 정상적으로 표시됩니다.  
 > * 모바일 환경에서는 일부 UI가 완벽하게 표시되지 않을 수 있음
 > * 외부 자료 출처:  
 >   - [Google 공식 홈페이지](https://www.google.com/)  
